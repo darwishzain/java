@@ -17,7 +17,7 @@ class editor extends JFrame implements ActionListener {
     editor()
     {
         // Create a frame
-        f = new JFrame("editor");
+        f = new JFrame("Luse Text Editor");
 
         try {
             // Set metl look and feel

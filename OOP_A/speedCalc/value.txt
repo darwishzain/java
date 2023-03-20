@@ -1,0 +1,4 @@
+public class value {
+    public double firstData;
+    public double secondData;
+}

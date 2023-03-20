@@ -1,4 +1,4 @@
 @echo off
-javac gui.java
-java gui
-pause
+set mCode="gui.java"
+javac %mCode%
+java %mCode%

@@ -1,0 +1,34 @@
+public class theFunction {
+    
+    public double ftoc(double f)
+    {
+        f=(5/9)*(f-32);
+        return f;
+    }
+    public double ftok(double f)
+    {
+        f=(5/9)*(f-32)+273;
+        return f;
+    }
+    public double ctof(double c)
+    {
+        c=(9/5)*c+32;
+        return c;
+    }
+    public double ctok(double c)
+    {
+        c=c+273;
+        return c;
+    }
+    public double ktof(double k)
+    {
+        k=(9/5)*(k-273)+32;
+        return k;
+    }
+    public double ktoc(double k)
+    {
+        k=k-273;
+        return k;
+    }
+    
+}
